@@ -6,7 +6,7 @@ namespace IndentParser.Parser
     /// An interface for parsing indents
     /// </summary>
     /// <typeparam name="T">The type of object returned from parsing</typeparam>
-    interface IIndentParser<T>
+    public interface IIndentParser<T>
     {
         /// <summary>
         /// Parses the indents in <paramref name="input"/>.

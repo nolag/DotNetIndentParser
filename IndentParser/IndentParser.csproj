@@ -37,6 +37,8 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IO\LineReader.cs" />
+    <Compile Include="Parser\TextReaderIndentParser.cs" />
     <Compile Include="Strategy\IIndentDetectionStrategy.cs" />
     <Compile Include="Parser\IIndentParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
